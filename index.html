@@ -4,12 +4,13 @@
     var nwindow = 0
 
     var i = 0
-    while (i < 50) {
+    while (i < 100) {
         i+=1
         x+=10
         y+=10
         nwindow +=1
         popup=window.open("","popup" + String(nwindow),"width=200,height=200,screenX=" + String(x) + ",screenY=" + String(y))
     }
+    window.close()
     
 </script>
